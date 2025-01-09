@@ -1,6 +1,7 @@
 {
     "name": "trainvox/train-service",
     "description": "Train service of TrainVox",
+    "type": "library",
     "authors": [
         {
             "name": "hoangct"
@@ -12,11 +13,13 @@
             "TrainVox\\TrainService\\": "src/"
         }
     },
+    "license": "MIT",
     "extra": {
         "laravel": {
             "providers": [
                 "TrainVox\\TrainService\\TrainServiceServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
